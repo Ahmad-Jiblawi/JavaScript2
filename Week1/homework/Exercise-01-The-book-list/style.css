@@ -1,0 +1,23 @@
+body {
+  background: lightblue;
+}
+
+.my-favorite-books {
+  width: 90%;
+  font-size: 20px;
+  margin: auto;
+}
+
+.my-favorite-books li {
+  max-width: 500px;
+  margin: 30px auto;
+  border: 1px solid #3d3d3d;
+  border-radius: 5px;
+  text-align: center;
+  background: #eee;
+}
+
+.book-cover {
+  width: 300px;
+  margin-bottom: 20px;
+}

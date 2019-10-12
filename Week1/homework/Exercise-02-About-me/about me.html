@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>About Me</title>
+    <style>
+      body {
+        text-align: center;
+        font-size: 36px;
+      }
+      .list-item {
+        color: red;
+        list-style: none;
+      }
+
+      img {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>About Me</h1>
+
+    <ul>
+      <li>Nickname: <span id="nickname"></span></li>
+      <li>Favorite food: <span id="fav-food"></span></li>
+      <li>Hometown: <span id="hometown"></span></li>
+    </ul>
+    <script lang="javaScript">
+      document.body.style.fontFamily = "Arial, sans-serif";
+      document.getElementById('nickname').innerHTML = 'Mido';
+      document.getElementById('fav-food').innerHTML = 'Pizza';
+      document.getElementById('hometown').innerHTML = 'Latakia';
+      for (let i = 0; i < 3 ; i++) {
+        const item = document.getElementsByTagName('li');
+        item[i].setAttribute('class', 'list-item');
+      }
+      const myImage = document.createElement('img');
+      myImage.setAttribute('src', 'https://i.pinimg.com/originals/9f/1c/24/9f1c24a0e9ea70210568de7522c8faa4.jpg');
+      document.body.appendChild(myImage);
+    </script>
+  </body>
+</html>
