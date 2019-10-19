@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Signika', sans-serif;
+  background: #252423;
+  color: aquamarine;
+}
+
+main {
+  width: 60%; 
+  margin: 30px auto 0;
+}
+
+.full-container {
+  width: max-content;
+  margin: auto;
+  padding: 30px 60px;
+  border: 15px solid white;
+  border-radius: 50px;
+}
+
+h1, h2, .time-set-container, .clock-container, .play-pause-container {
+  width: max-content;
+  margin: auto;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+h2 {
+  width: max-content;
+  margin: 30px auto;
+  font-size: 40px;
+
+}
+
+.fa-arrow-down, .fa-arrow-up {
+  font-size: 50px;
+  margin: 0 20px;
+}
+
+.time-set-container span {
+  font-size: 60px;
+}
+
+.fa-play, .fa-pause, .fa-sync-alt{
+  font-size: 60px;
+  margin: 0 20px;
+}
+
+.clock-container {
+  text-align: center;
+}
+
+#clock {
+  font-size: 120px;
+}
