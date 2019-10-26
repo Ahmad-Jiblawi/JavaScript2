@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  background: #b1c5c4;
+  color: aquamarine;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+main {
+  width: 70%;
+  margin: auto;
+}
+
+.main-container {
+  width: 45%;
+  height: 650px;
+  margin: 50px auto 0;
+  background: #252423;
+  border: 5px solid #eb6214;
+  border-radius: 10px;
+}
+
+header {
+  height: 8%;
+  background: aquamarine;
+  color: #252423;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  height: 68%;
+}
+
+.bill-amount, .service-rate, .number-of-people, .calc-btn {
+  width: 100%;
+  height: 23%;
+}
+
+p {
+  font-size: 24px;
+  margin: 15px 0 20px 30px;
+}
+
+.bill-amount div {
+  width: 65%;
+  height: 35px;
+  margin-left: 28px;
+  border: none;
+}
+
+#money-amount {
+  width: 94%;
+  height: 100%;
+  padding: 10px;
+  font-size: 22px;
+}
+
+.dollar {
+  font-size: 22px;
+  margin-right: 6px;
+}
+
+.service-rate div {
+  width: 65%;
+  height: 40px;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+}
+
+#service-percent {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+  font-size: 26px;
+  font-weight: bold;
+  border: none;
+  
+}
+
+.number-of-people div {
+  width: 85%;
+  height: 35px;
+  margin-left: 28px;
+  border: none;
+}
+
+#people-number {
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  font-size: 22px;
+}
+
+.number-of-people div:after {
+  content: "people";
+  font-size: 22px;
+  margin-left: 6px;
+}
+
+#calculate-btn {
+  width: 100%;
+  height: 100%;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: aquamarine;
+}
+
+#calculate-btn:hover {
+  cursor: pointer;
+}
+
+.calc-btn div {
+  width: 50%;
+  height: 60px;
+  margin: 35px auto 0;
+  border: none;
+  border-radius: 8px;
+}
+
+#result {
+  height: 32%;
+}
+
+#result p {
+  width: max-content;
+  margin: 10px auto 0;
+  font-size: 30px;
+}
+
+.total-price {
+  width: max-content;
+  margin: auto;
+}
+
+#result sup {
+  font-size: 18px;
+}
+
+#price {
+  font-size: 25px;
+}
+
+#div-each {
+  width: max-content;
+  margin: auto;
+  font-size: 25px;
+}

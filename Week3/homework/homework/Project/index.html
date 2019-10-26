@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TIP CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+
+    <div class="main-container">
+        <header>
+          <h1>TIP CALCULATOR</h1>
+        </header>
+  
+        <form>
+  
+          <label>
+            <div class='bill-amount'>
+                <p>How much was your bill?</p>
+                <div>
+                    <span class="dollar">&#36;</span><input type="number" id="money-amount" placeholder="Type the amount of your bill">
+                </div>
+            </div>
+          </label>
+  
+          <label>
+              <div class="service-rate">
+            <p>How was your service?</p>
+            <div>
+                <select id="service-percent">
+                    <option disabled selected value= '0'> -- Choose an Option -- </option>
+                    <option value="30">30% - Outstanding</option>
+                    <option value="20">20% - Good</option>
+                    <option value="15">15% - It was OK</option>
+                    <option value="10">10% - Bad</option>
+                    <option value="5">5% - Terrible</option>
+                </select>
+            </div>
+        </div>
+          </label>
+  
+          <label>
+              <div class="number-of-people">
+            <p>How many people are sharing the bill?</p>
+            <div><input type="number" id="people-number" placeholder="Type number of people"></div>
+        </div>
+          </label>
+  
+          <label>
+              <div class="calc-btn">
+                <div><input type="button" id="calculate-btn" value="CALCULATE!"></div>
+            </div>
+          </label>
+  
+        </form>
+  
+        <div id="result">
+          <p>TIP AMOUNT</p>
+          <div class="total-price"><sup>&#36;</sup><span id='price'></span></div>
+          <div id="div-each"></div>
+        </div>
+  
+      </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
